@@ -159,6 +159,10 @@ header #feds-header a.feds-navLink:hover .feds-navLink-text {
   color: var(--color-info-accent-hover);
 }
 
+header #feds-header .feds-popup a.feds-navLink[href="#"] {
+  pointer-events: none;
+}
+
 footer {
   margin-top: 0;
 }
